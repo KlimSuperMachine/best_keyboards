@@ -85,6 +85,10 @@ body {
   background-color: floralwhite;
 }
 
+.keyboard {
+  padding: 0 0 30px 0;
+}
+
 .keyboard-line {
   display: flex;
   justify-content: center;
