@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+/*==========================================================*/
+
+body {
+  font-family: 'Inter Tight', sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  color: #333;
+  background-color: rgb(80, 79, 79);
+}
+
+.container {
+  min-height: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 10px;
+
+  display: flex;
+  flex-direction: column;
+}
+  
+.visually-hidden {
+  display: none;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+.computer {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 16px 10px;
+}
+
+.display-wrapper {
+  border-radius: 4px;
+  margin-bottom: 15px;
+  padding: 4px;
+  background-image: linear-gradient(to bottom, #ac4139, #000000);
+}
+
+.display {
+  height: 150px;
+  padding: 8px 28px 16px;
+  word-wrap: break-word;
+  border-radius: 4px;
+  background-color: floralwhite;
+}
+
+.keyboard-line {
+  display: flex;
+  justify-content: center;
+}
+
+.keyboard-line:first-child {
+  margin: 0 0 10px 0;
+}
+
+.keyboard-line:nth-child(4) {
+  padding: 0 12.5%;
+}
+
+.button {
+  padding: 10px 0 10px 0;
+  font-size: 16px;
+  color: wheat;
+  border-radius: 6px;
+  background-image: linear-gradient(to bottom, #70322d, #000000);
+  box-shadow: 0 0 7px 2px wheat;
+}
+
+.button.clear {
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.key {
+  margin: 0 5px 5px 0;
+  flex: 1 1 auto;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.space {
+  height: 50px;
+  margin: 10px 0 0 0;
+}
+
+.button:hover {
+  background-image: linear-gradient(to bottom, #000000, #0534a8);
+}
