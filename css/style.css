@@ -74,7 +74,8 @@ body {
   border-radius: 4px;
   margin-bottom: 15px;
   padding: 4px;
-  background-image: linear-gradient(to bottom, #ac4139, #000000);
+  background-image: linear-gradient(to bottom, #360704, #000000);
+  box-shadow: 0 0 7px 2px wheat;
 }
 
 .display {
